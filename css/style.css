@@ -436,15 +436,6 @@ a:active{
   flex-basis: calc((50% - 45px) / 2);
   display: block;
 }
-.footer-list {
-  text-transform: uppercase;
-  color: var(--list-color);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-bottom: 20px;
-}
 .site-nav .footer-address {
   color: var(--list-color);
   white-space: nowrap;
@@ -463,23 +454,37 @@ a:active{
   letter-spacing: 0.03em;
   transition: color 250ms var(--time-transition);
 }
-
 .site-nav-footer__link:hover,
 .site-nav-footer__link:focus {
   color: var(--logo-color);
 }
-.social-icons-footer .icon-footer {
+.sosial {
+  width: 206px;
+  height: 80px;
+  display: inline-flex;
+  flex-basis: calc((50% - 45px) / 2);
+}
+.footer-list {
+  text-transform: uppercase;
+  color: var(--list-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.social-footer__icon {
   width: 20px;
   height: 20px;
   fill: var(--list-color);
 }
-.social-icons-footer {
+.social-footer {
   display: inline-flex;
   padding-left: 0;
   width: 206px;
   height: 44px;
 }
-.social-icons-link-footer {
+.social-footer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,19 +495,12 @@ a:active{
   transition: background-color 250ms var(--time-transition),
     fill 250ms var(--time-transition);
 }
-.social-icons-footer+.social-icons-footer {
+.social-footer__item + .social-footer__item {
   margin-left: 10px;
 }
-.social-icons-link-footer:hover,
-.social-icons-link-footer:focus {
+.social-footer__link:hover,
+.social-footer__link:focus {
   background-color: var(--logo-color);
-}
-
-.sosial {
-  width: 206px;
-  height: 80px;
-  display: inline-flex;
-  flex-basis: calc((50% - 45px) / 2);
 }
 /*подписка*/
 .subscription {
