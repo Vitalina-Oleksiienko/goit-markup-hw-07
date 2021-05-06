@@ -48,7 +48,9 @@ ul {
   list-style: none;
   color: var(--peculiarity-color, #212121);
 }
-
+h3 {
+  margin-block-start: 0em;
+}
 .container {
   width: 1200px;
   padding: 0 15px 0 15px;
